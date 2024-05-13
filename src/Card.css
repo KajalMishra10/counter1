@@ -1,0 +1,11 @@
+.timer-card {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: brown;
+  color: black;
+}
+div {
+  display: inline-block;
+  border-radius: 10px;
+}
