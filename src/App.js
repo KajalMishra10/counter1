@@ -18,7 +18,7 @@ export default function App() {
       setNotifi("Selected time is in the past.");
       return;
     }
-    if (timeDifference > 99) {
+      if (timeDifference / (1000 * 60 * 60 * 24) > 99) {
       setNotifi("Selected time is more than 100.");
       return;
     }
